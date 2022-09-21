@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="container">
+    <div class="top_form">
+        <div class="top_cards">
+                <form action="" method="get" autocomplete="on">
+                    <fieldset >
+                        <legend> CONTACT INFORATION </legend>
+                        <ul style="list-style-type: none;padding-bottom: 30px" class="top">
+                            <li><input type="text"  placeholder="First name*" /></li>
+                            <li><input type="text"  placeholder="last name*"/></li>
+                            <li><input type="email"  placeholder="email*"  pattern=".+@gamil.com"  required/></li>
+                            <li><input type="tel"   placeholder="Phone*"/></li>
+                        </ul>
+                    </fieldset>
+                </form>
+        </div>
+        <div style="width:55%">
+            <form action="" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>ADDRESS</legend>
+                    <ul style="list-style-type: none;padding-bottom: 30px">
+                        <li><input type="text"  placeholder="Street line 1 *" style="width:56%"/></li>
+                        <li><input type="text"  placeholder="City*"/>
+                        <input type="text"  placeholder="State / province*"/></li>
+                        <li><input type="tel"  placeholder="Postal/Zip code*"/>
+                            <select name="country" id="country" style="margin-left: 10px;">
+                            <option value="" >--Please Select--</option>
+                            <option value="india">India</option>
+                            <option value="cuba">Cuba</option>
+                            <option value="america">America</option>
+                            </select>  
+                        </li>
+                        <li> <label for="country">Country*</label></li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="bottom_form">
+        <div class="bottom_cards">
+            <form action="" method="get" action="" method="get" autocomplete="on">
+                <fieldset>
+                    <legend> PRODUCTS </legend>
+                    <ul style="list-style-type: none;padding-bottom: 30px">
+                        <li><input type="text"  placeholder="item #1 name*"/>
+                            <input type="text"  placeholder="item #1 quantity*" /></li>
+                            <li><input type="text"  placeholder="item #2 name*"/>
+                            <input type="text"  placeholder="item #2 quantity*"></li>
+                            <li><input type="text"  placeholder="item #3 name*"/>
+                            <input type="text"  placeholder="item # quantity*"/></li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+        <div style="width:55%">
+            <form action="" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>NOTES</legend>
+                    <ul style="list-style-type: none;padding-bottom: 30px">
+                    <li><label for="w3review">Additional comments or questions </label></li>
+                    <li><textarea id="w3review" name="w3review" rows="4" cols="40">
+                        </textarea></li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+        <!-- transtion button
+        <div >
+            <form >
+                <input  type="button" value="REQUEST QUOTE" class="btn">
+            </form>
+        </div>
+        -->
+        <div class="login-box">
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                REQUEST QUOTE
+            </a>
+        </div>
+    </div>
+</body>
+</html>
